@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/gabo-drive");
+@import url("https://fonts.cdnfonts.com/css/coffee-icons");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Questrial", sans-serif;
+  height: 100vh;
+  font-size: 1em;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 4em;
+  background-color: #260b01;
+  text-align: end;
+}
+
+header nav h1 {
+  padding: 0.1em 1em 0.1em 1em;
+  font-family: "Gabo Drive", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #d99e6a;
+  transition: ease-in-out, 0.3s;
+}
+
+header nav h1:hover {
+  transform: scale(1.1);
+  color: #adadad;
+}
+
+nav ul li {
+  display: inline;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #d99e6a;
+}
+
+nav ul li span {
+  padding: 10px;
+  font-family: "coffee icons", sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+  text-transform: none;
+}
+
+nav ul li a {
+  padding: 1.8em 1.2em 1.8em 1.2em;
+}
+
+nav ul li a:hover {
+  background-color: #d99e6a;
+  color: #592c1c;
+  transition: ease-in-out, 0.4s;
+}
+
+nav ul li a:focus {
+  text-decoration: underline;
+}
+
+#banner {
+  height: 94vh;
+  width: inherit;
+  background-color: #adadad;
+}
+
+#banner img {
+  height: 94vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+main {
+  display: flex;
+  background-color: #260b01;
+}
+
+main aside {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  width: 300px;
+  height: fit-content;
+  line-height: 3em;
+  background-color: #260b01;
+}
+
+main aside h2 span {
+  padding: 10px;
+  font-family: "coffee icons", sans-serif;
+  font-size: 1.8em;
+  text-align: center;
+  text-transform: none;
+}
+
+main aside h2 {
+  text-transform: uppercase;
+  color: #d99e6a;
+}
+
+main aside article {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 260px;
+  background-color: #592c1c;
+  color: #adadad;
+  border: solid 2px;
+  border-color: #d9946c;
+  text-align: center;
+}
+
+main aside article figure img {
+  width: 180px;
+  margin-top: 1em;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+main aside article figure img:hover {
+  transform: scale(1.05);
+}
+
+main aside article figure figcaption {
+  margin-top: -20px;
+}
+
+.tag {
+  width: 100%;
+  height: 50px;
+  font-size: 1.1em;
+  background-color: #d99e6a;
+  color: #592c1c;
+  text-align: center;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #d99e6a;
+  padding-right: 5px;
+}
+
+#TheCoffee {
+  padding: 5em 5em 5em 3em;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background-image: url(/img/bg/coffee3.webp);
+  background-size: cover;
+  background-position: left;
+}
+
+#TheCoffee h2 {
+  padding: 1em;
+  color: #260b01;
+  font-size: 4em;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#TheCoffee span {
+  padding: 20px;
+  font-family: "coffee icons", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  text-transform: none;
+}
+
+.aCoffee {
+  padding: 2.4em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  background-color: rgba(217, 158, 106, 0.9);
+  color: #260b01;
+  box-shadow: rgba(0, 0, 0, 1) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 1) 0px 0px 0px 1px;
+}
+
+.aCoffee p {
+  padding: 0.3em 2em 2em 2em;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  line-height: 2.8em;
+  text-align: justify;
+}
+
+#Products {
+  padding: 5em 5em 5em 3em;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/img/bg/04.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+#Products h2 {
+  padding: 1em;
+  color: #d9946c;
+  font-size: 2.6em;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#Products span {
+  padding: 20px;
+  font-family: "coffee icons", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  text-transform: none;
+}
+
+.aProducts {
+  padding: 1em;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 33.333% 33.333% 33.333%;
+  background-color: rgba(217, 158, 106, 0.4);
+  color: #260b01;
+  box-shadow: rgba(0, 0, 0, 1) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 1) 0px 0px 0px 1px;
+}
+
+.aProducts figure {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aProducts img {
+  margin: 1em;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 36px 0px;
+  transition: ease-in-out 0.2s;
+}
+
+.aProducts img:hover {
+  transform: scale(1.05);
+}
+
+.aProducts figcaption {
+  padding: 0.6em;
+  color: #592c1c;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.aProducts p {
+  padding: 0.6em;
+  color: #260b01;
+  font-size: 1.4em;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer {
+  padding: 4em 1em 1em 1em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #260b01;
+  color: #d9946c;
+}
+
+footer section {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+footer article {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 20vw;
+}
+
+footer article h2 {
+  padding: 0.7em;
+  font-size: 1.4em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #adadad;
+  transition: ease-in-out, 0.3s;
+}
+
+footer article a h2:hover {
+  color: #d99e6a;
+  transition: ease-in-out, 0.3s;
+  transform: scale(1.1);
+}
+
+footer article h3 {
+  padding: 0.5em;
+  font-size: 1.1em;
+  text-align: left;
+  letter-spacing: 0.1em;
+  color: #adadad;
+  transition: ease-in-out, 0.3s;
+}
+
+footer article p {
+  padding: 10px;
+  color: #adadad;
+}
+
+footer ul li {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-weight: bolder;
+  color: #adadad;
+}
+
+footer ul li a {
+  padding-left: 1em;
+}
+
+footer ul li:hover {
+  color: #d9946c;
+  transition: ease-in-out, 0.4s;
+  transform: scale(1.1);
+}
+
+footer ul li a:focus {
+  text-decoration: underline;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+}
+
+.mediaIcon {
+  padding: 0.2em;
+  font-size: 1.6em;
+}
+
+.media li a {
+  padding: 0.4em;
+  color: #adadad;
+}
+
+.media li a:hover {
+  color: #d9946c;
+  transition: ease-in-out, 0.4s;
+  transform: scale(1.1);
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer form input {
+  margin: 1em;
+  width: 280px;
+  height: 4vh;
+}
+
+footer form button {
+  width: 80px;
+  height: 3vh;
+  background-color: #adadad;
+  color: #592c1c;
+  border: 1px solid #592c1c;
+  border-radius: 5px;
+}
+
+footer form button:hover {
+  background-color: #d9946c;
+  color: #260b01;
+  border: 1px solid #260b01;
+  transition: ease-in-out, 0.4s;
+  transform: scale(1.1); 
+}
+
+#dev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#dev article {
+  width: 380px;
+}
+
+#dev p a {
+  color: #adadad;
+}
+
+#dev p a:hover {
+  color: #d9946c;
+  font-weight: 900;
+  transition: ease-in-out, 0.4s;
+}
