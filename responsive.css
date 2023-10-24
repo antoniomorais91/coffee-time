@@ -2,9 +2,12 @@
   header nav h1 {
     font-size: 2em;
   }
+
+
 }
 
 @media (max-width: 1200px) {
+  
   #TheCoffee {
     padding: 3em;
     align-items: center;
@@ -28,6 +31,42 @@
     text-align: justify;
   }
 
+  #TheCoffeeTwo {
+    padding: 3em;
+    align-items: center;
+  }
+  
+  #TheCoffeeTwo h2 {
+    padding: 0.8em;
+    font-size: 3em;
+  }
+  
+  #TheCoffeeTwo span {
+    padding: 10px;
+    font-size: 0.7em;
+  }
+  
+  #TheCoffeeTwo .aCoffee {
+    padding: 10px;
+    width: 600px;
+  }
+  
+  .CoffeeTable {
+    width: 100%;
+  }
+  
+  .CoffeeTable caption {
+    padding: 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  
+  .CoffeeTable tr, td {
+    padding: 10px;
+    font-size: 0.8em;
+    border: 1px solid #260b01;
+  }
+  
   #Products {
     padding: 3em;
   }

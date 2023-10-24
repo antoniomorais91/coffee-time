@@ -224,6 +224,77 @@ main aside article figure figcaption {
   text-align: justify;
 }
 
+#TheCoffeeTwo {
+  padding: 5em 5em 5em 3em;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  background-image: url(/img/bg/01.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+#TheCoffeeTwo h2 {
+  padding: 1em;
+  color: #d9946c;
+  font-size: 4em;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#TheCoffeeTwo span {
+  padding: 20px;
+  font-family: "coffee icons", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  text-transform: none;
+}
+
+#TheCoffeeTwo .aCoffee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+}
+
+.CoffeeTable {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #260b01;
+}
+
+.CoffeeTable caption {
+  padding: 20px;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.CoffeeTable th {
+  padding: 10px;
+  border: 1px solid #260b01;
+  background-color: #d99e6a;
+}
+
+.CoffeeTable tr:nth-child(odd) {
+  background-color: #d9946c;
+}
+
+.CoffeeTable tr:nth-child(even) {
+  background-color: #d99e6a;
+}
+
+.CoffeeTable tr, td {
+  padding: 20px;
+  font-size: 1em;
+  border: 1px solid #260b01;
+}
+
 #Products {
   padding: 5em 5em 5em 3em;
   width: 100%;
@@ -429,7 +500,7 @@ footer form button:hover {
   color: #260b01;
   border: 1px solid #260b01;
   transition: ease-in-out, 0.4s;
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 #dev {
