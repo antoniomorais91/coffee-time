@@ -98,7 +98,7 @@
         </article>
       </aside>
       <div style="display: flex; flex-direction: column; align-items: center">
-        <section id="TheCoffee">
+        <section class="TheCoffee">
           <h2><span>{</span>A Origem do Café</h2>
           <article class="aCoffee">
             <p>
@@ -110,7 +110,7 @@
             </p>
           </article>
         </section>
-        <section id="TheCoffeeTwo">
+        <section class="TheCoffeeTwo">
           <h2><span>X</span>Vai um Cafezinho?</h2>
           <article class="aCoffee">
             <table class="CoffeeTable">
@@ -268,8 +268,10 @@
         <article>
           <h2>Receba Novidades!</h2>
           <form action="">
+            <label for="email">E-mail:</label>
             <input
               type="email"
+              id="email"
               placeholder="Insira aqui seu e-mail."
               aria-describedby="button-submit"
             />

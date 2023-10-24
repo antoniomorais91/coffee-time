@@ -2,18 +2,15 @@
   header nav h1 {
     font-size: 2em;
   }
-
-
 }
 
 @media (max-width: 1200px) {
-  
-  #TheCoffee {
+  .TheCoffee {
     padding: 3em;
     align-items: center;
   }
 
-  #TheCoffee h2 {
+  .TheCoffee h2 {
     padding: 0.8em;
     font-size: 3em;
   }
@@ -31,42 +28,43 @@
     text-align: justify;
   }
 
-  #TheCoffeeTwo {
-    padding: 3em;
+  .TheCoffeeTwo {
+    padding: 1em;
     align-items: center;
   }
-  
-  #TheCoffeeTwo h2 {
+
+  .TheCoffeeTwo h2 {
     padding: 0.8em;
     font-size: 3em;
   }
-  
-  #TheCoffeeTwo span {
+
+  .TheCoffeeTwo span {
     padding: 10px;
     font-size: 0.7em;
   }
-  
-  #TheCoffeeTwo .aCoffee {
+
+  .TheCoffeeTwo .aCoffee {
     padding: 10px;
-    width: 600px;
+    width: 62vw;
   }
-  
+
   .CoffeeTable {
     width: 100%;
   }
-  
+
   .CoffeeTable caption {
     padding: 20px;
     font-size: 1em;
     text-transform: uppercase;
   }
-  
-  .CoffeeTable tr, td {
+
+  .CoffeeTable tr,
+  td {
     padding: 10px;
     font-size: 0.8em;
     border: 1px solid #260b01;
   }
-  
+
   #Products {
     padding: 3em;
   }
@@ -108,12 +106,10 @@
 
   footer article h2 {
     padding: 0.5em;
-    font-size: 1.1em;
   }
 
   footer article h3 {
     padding: 0.3em;
-    font-size: 0.9em;
   }
 
   footer form input {
@@ -162,20 +158,35 @@
     font-size: 1em;
   }
 
-  #TheCoffee {
+  .TheCoffee {
     padding: 2em;
     width: 100vw;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    background-image: url(/img/bg/coffee3.jpg);
-    background-size: cover;
-    background-position: center;
   }
 
-  #TheCoffee h2 {
-    padding: 0.6em;
-    font-size: 2em;
+  .TheCoffeeTwo .aCoffee {
+    padding: 10px;
+    width: 96vw;
+  }
+
+  .CoffeeTable {
+    width: 100%;
+  }
+
+  .CoffeeTable caption {
+    padding: 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+
+  .CoffeeTable th {
+    font-size: 0.7em;
+  }
+
+  .CoffeeTable tr,
+  td {
+    padding: 5px;
+    font-size: 0.7em;
+    border: 1px solid #260b01;
   }
 
   #Products h2 {
@@ -208,19 +219,24 @@
 
   footer section {
     width: 100%;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
   }
 
   footer article {
-    padding: 1em;
+    padding: 0.5em;
     align-items: left;
     width: 100%;
   }
 
+  footer article h2 {
+    text-align: left;
+  }
+
   .media {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
   footer form input {
@@ -230,14 +246,14 @@
 
   .media {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 40px;
+    grid-gap: 30px;
   }
 
   #dev {
     height: 100px;
   }
-    
 
   #dev article {
     width: 300px;

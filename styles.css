@@ -172,7 +172,7 @@ main aside article figure figcaption {
   padding-right: 5px;
 }
 
-#TheCoffee {
+.TheCoffee {
   padding: 5em 5em 5em 3em;
   width: 100%;
   height: fit-content;
@@ -185,7 +185,7 @@ main aside article figure figcaption {
   background-position: left;
 }
 
-#TheCoffee h2 {
+.TheCoffee h2 {
   padding: 1em;
   color: #260b01;
   font-size: 4em;
@@ -194,7 +194,7 @@ main aside article figure figcaption {
   text-transform: uppercase;
 }
 
-#TheCoffee span {
+.TheCoffee span {
   padding: 20px;
   font-family: "coffee icons", sans-serif;
   font-size: 1em;
@@ -224,20 +224,20 @@ main aside article figure figcaption {
   text-align: justify;
 }
 
-#TheCoffeeTwo {
-  padding: 5em 5em 5em 3em;
+.TheCoffeeTwo {
+  padding: 3em 3em 3em 1em;
   width: 100%;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: end;
   justify-content: center;
-  background-image: url(/img/bg/01.jpg);
+  background-image: url(/img/bg/01.webp);
   background-size: cover;
   background-position: left;
 }
 
-#TheCoffeeTwo h2 {
+.TheCoffeeTwo h2 {
   padding: 1em;
   color: #d9946c;
   font-size: 4em;
@@ -246,7 +246,7 @@ main aside article figure figcaption {
   text-transform: uppercase;
 }
 
-#TheCoffeeTwo span {
+.TheCoffeeTwo span {
   padding: 20px;
   font-family: "coffee icons", sans-serif;
   font-size: 1em;
@@ -254,7 +254,7 @@ main aside article figure figcaption {
   text-transform: none;
 }
 
-#TheCoffeeTwo .aCoffee {
+.TheCoffeeTwo .aCoffee {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,6 +279,7 @@ main aside article figure figcaption {
   padding: 10px;
   border: 1px solid #260b01;
   background-color: #d99e6a;
+  font-size: 1em;
 }
 
 .CoffeeTable tr:nth-child(odd) {
@@ -377,7 +378,7 @@ main aside article figure figcaption {
 }
 
 footer {
-  padding: 4em 1em 1em 1em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -398,12 +399,12 @@ footer article {
   display: flex;
   flex-direction: column;
   align-items: left;
-  width: 20vw;
+  width: 16vw;
 }
 
 footer article h2 {
-  padding: 0.7em;
-  font-size: 1.4em;
+  padding: 0.5em;
+  font-size: 1em;
   text-align: center;
   letter-spacing: 0.1em;
   color: #adadad;
@@ -417,8 +418,8 @@ footer article a h2:hover {
 }
 
 footer article h3 {
-  padding: 0.5em;
-  font-size: 1.1em;
+  padding: 0.3em;
+  font-size: 0.8em;
   text-align: left;
   letter-spacing: 0.1em;
   color: #adadad;
@@ -427,6 +428,7 @@ footer article h3 {
 
 footer article p {
   padding: 10px;
+  font-size: 0.8em;
   color: #adadad;
 }
 
@@ -460,7 +462,7 @@ footer ul li a:focus {
 
 .mediaIcon {
   padding: 0.2em;
-  font-size: 1.6em;
+  font-size: 1.3em;
 }
 
 .media li a {
@@ -483,7 +485,7 @@ footer form {
 footer form input {
   margin: 1em;
   width: 280px;
-  height: 4vh;
+  height: 3vh;
 }
 
 footer form button {
